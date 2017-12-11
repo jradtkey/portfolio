@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/profile.jpg"/>
+  <title>Jared Radtkey - Software Developer</title>
+  <meta name="description" content="">
+  <meta name="author" content="NAME">
+  <meta name="keywords" content="NAME, Portfolio, Web Developer, Software Developer, Full-Stack, Full-Stack Developer, Software Developer">
+  <link rel="stylesheet" href="css/gradient.min.css" id="css-main">
+  <script src="https://use.fontawesome.com/289ab22ae6.js"></script>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <!-- preloader -->
+      <div id="preloader">
+        <div class="sk-wave">
+          <div class="sk-rect sk-rect1"></div>
+          <div class="sk-rect sk-rect2"></div>
+          <div class="sk-rect sk-rect3"></div>
+          <div class="sk-rect sk-rect4"></div>
+          <div class="sk-rect sk-rect5"></div>
+        </div>
+      </div>
+      <!-- preloader end -->
+      <header class="container-fluid sdm-bg" id="home">
+        <div class="row">
+          <div class="overlay"></div>
+          <!-- main menu -->
+          <ul class="nav nav-pills menu-center margin-top-30 scroll-nav">
+            <li role="presentation" class="active"><a href="#home"><i class="fa fa-home"></i></a></li>
+            <li role="presentation"><a href="#portfolio">Portfolio</a></li>
+            <li role="presentation"><a href="#reviews">Reviews</a></li>
+            <li role="presentation"><a href="#about_me">About</a></li>
+            <li role="presentation"><a href="#expertness">Skills</a></li>
+            <li role="presentation"><a href="#contact_me">Contact</a></li>
+          </ul>
+          <!-- main menu end -->
+          <img src="images/profile.jpg" class="margin-top-76 img-circle center-block profile_picture" alt="profile picture">
+          <h1 class="text-capitalize text-center">Jared Radtkey</h1>
+          <h3 class="text-capitalize text-center">Software Developer</h3>
+          <hr/>
+          <div class="text-center margin-bottom-135">
+            <ul class="social-networks spin-icon">
+              <li><a href="https://github.com/jradtkey" class="icon-facebook">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/jaredradtkey/" class="icon-linkedin">LinkedIn</a></li>
+              <li><a href="https://angel.co/jared-radtkey" class="icon-pinterest">Pinterest</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <section class="container position-relative" id="portfolio">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 position-absolute">
+            <div class="text-center filter-btns">
+              <!-- filter btn -->
+              <h1>Projects</h1>
+              <!-- <ul class="nav nav-pills">
+                <li role="presentation">
+                  <a href="javascript:void(0)" id="all" class="btn" data-mixitup-control data-filter="all">All</a>
+                </li>
+                <li role="presentation">
+                  <a href="javascript:void(0)" class="btn" data-mixitup-control data-filter=".web">Web</a>
+                </li>
+                <li role="presentation">
+                  <a href="javascript:void(0)" class="btn" data-mixitup-control data-filter=".android">Android</a>
+                </li>
+                <li role="presentation">
+                  <a href="javascript:void(0)" class="btn" data-mixitup-control data-filter=".ios">iOS</a>
+                </li>
+                <li role="presentation">
+                  <a href="javascript:void(0)" class="btn" data-mixitup-control data-filter=".desktop">Desktop</a>
+                </li>
+              </ul> -->
+              <!-- filter btn end-->
+            </div>
+            <!-- mixitup container -->
+            <div class="row" id="mix-wrapper">
+              <div id="effect-5">
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+                  <figure>
+                    <img src="images/portfolio/port1.png" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal1">
+                        <h3>Puppy Marketplace</h3>
+                        <hr>
+                        <p>Development, Front End, Back End</p>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="2">
+                  <figure>
+                    <img src="images/portfolio/port2.jpg" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal">
+                        <h3>Super Cool Web App</h3>
+                        <hr>
+                        <p>Development, Design</p>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target android" data-order="3">
+                  <figure>
+                    <img src="images/portfolio/port1.jpg" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal">
+                        <h3>Super Cool Web App</h3>
+                        <hr>
+                        <p>Development, Design</p>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target ios" data-order="4">
+                  <figure target="_blank">
+                    <img src="images/portfolio/port4.jpg" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal">
+                        <h3>Super Cool Web App</h3>
+                        <hr>
+                        <p>Development, Design</p>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target ios" data-order="5">
+                  <figure>
+                    <img src="images/portfolio/port5.jpg" alt="">
+                    <figcaption>
+                      <a href="#" class="porto" data-toggle="modal" data-target="#myModal">
+                        <h3>Super Cool Web App</h3>
+                        <hr>
+                        <p>Development, Design</p>
+                      </a>
+
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target desktop" data-order="6">
+                  <figure>
+                    <img src="images/portfolio/port6.jpg" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal">
+                        <h3>Super Cool Web App</h3>
+                        <hr>
+                        <p>Development, Design</p>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <!-- <div class="col-sm-12 text-center">
+
+                <a href="#" class="btn btn-orange">Load More</a>
+              </div> -->
+
+            </div>
+            <!-- mixitup container end -->
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid sdm-bg" id="reviews">
+        <div class="row">
+          <div class="overlay"></div>
+          <!-- testimonials slider -->
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12" data-wow-delay="0.2s">
+                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                  <!-- Bottom Carousel Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="images/matt.png" alt="">
+                    </li>
+                    <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="images/John_Celona.jpg" alt="">
+                    </li>
+                    <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="images/mark.png" alt="">
+                    </li>
+                  </ol>
+
+                  <!-- Carousel Slides / Quotes -->
+                  <div class="carousel-inner text-center">
+
+                    <!-- Quote 1 -->
+                    <div class="item active">
+                      <blockquote>
+                        <div class="row">
+                          <div class="col-sm-8 col-sm-offset-2">
+
+                            <p>If your company is serious about hiring someone who can do it all while calmly influencing colleagues to do the same, I highly recommend Jared.</p>
+                            <small>Matthew Bernstein</small>
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+                    <!-- Quote 2 -->
+                    <div class="item">
+                      <blockquote>
+                        <div class="row">
+                          <div class="col-sm-8 col-sm-offset-2">
+
+                            <p>Jared brings to bear a rare combination of mature leadership and judgement with youthful enthusiasm and innovation. I welcome any opportunity to work with him.</p>
+                            <small>John Celona</small>
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+                    <!-- Quote 3 -->
+                    <div class="item">
+                      <blockquote>
+                        <div class="row">
+                          <div class="col-sm-8 col-sm-offset-2">
+
+                            <p>I could list many traits that would be highly prized by any organization, but a few that are most notable include his ability to analyze problems objectively, manage project timelines, and analyze a plethora of key metrics in order to implement timely solutions.</p>
+                            <small>Mark gauger</small>
+                          </div>
+                        </div>
+                      </blockquote>
+                    </div>
+                  </div>
+
+                  <!-- Carousel Buttons Next/Prev -->
+                  <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-angle-left fa-2x"></i></a>
+                  <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-angle-right fa-2x"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- testimonials slider end -->
+        </div>
+      </section>
+      <section class="container" id="about_me">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1 col-sm-12">
+            <div class="row">
+              <div class="col-md-5 col-sm-4 col-xs-12">
+                <h3><i class="fa fa-user"></i>About me</h3>
+                <div class="block">
+                  <p>
+                      Thank you for visiting my portfolio!
+                  </p>
+                  <p>
+                      I am a software developer with years of experience building, managing, and scaling companies. I love working with brilliant teams, and my curiosity and passion for learning keeps me excited about coding everyday. If you have a business idea that you want to discuss, let's chat about it!
+                  </p>
+                  <p>
+                      When I'm not coding, I'm most likely playing music, surfing, or day dreaming about the next big idea.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4 col-xs-6">
+                <h3><i class="fa fa-building"></i>Work history</h3>
+                <div class="block">
+                  <h4>Software Developer</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-building"></i>Self</li>
+                    <li><i class="fa fa-clock-o"></i>January 2017 - Present</li>
+                  </ul>
+                </div>
+                <div class="block">
+                  <h4>Field Ops Manager</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-building"></i>Zoomer</li>
+                    <li><i class="fa fa-clock-o"></i>April 2016 - January 2017</li>
+                  </ul>
+                </div>
+                <div class="block">
+                  <h4>City Launcher</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-building"></i>Zoomer</li>
+                    <li><i class="fa fa-clock-o"></i>August 2015 - April 2016</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-6">
+                <h3><i class="fa fa-graduation-cap"></i>Education</h3>
+                <div class="block">
+                  <h4>Software Development</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-book"></i>Coding Dojo</li>
+                    <li><i class="fa fa-clock-o"></i>August 2017 - Nov 2017</li>
+                  </ul>
+                </div>
+                <div class="block">
+                  <h4>Philosophy</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-book"></i>University of California, Berkeley</li>
+                    <li><i class="fa fa-clock-o"></i>2013 - 2015</li>
+                  </ul>
+                </div>
+                <!-- <div class="block">
+                  <h4>User experience Design</h4>
+                  <ul class="icon-list">
+                    <li><i class="fa fa-book"></i> University of Punjab</li>
+                    <li><i class="fa fa-clock-o"></i> 2017-Present</li>
+                  </ul>
+                </div> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid sdm-bg" id="expertness">
+        <div class="row">
+          <div class="overlay"></div>
+          <div class="col-sm-12">
+            <h1 class="text-center">My Skills</h1>
+          </div>
+        </div>
+        <section class="container">
+          <div class="row">
+            <div class="col-sm-4 col-xs-6">
+              <div class="block">
+                <i class="fa fa-code fa-3x"></i>
+                <h4 class="text-uppercase" style="color:#333333;">Languages</h4>
+                <p style="color:#333333;">
+                  JavaScript | TypeScript | Python | HTML | CSS
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+              <div class="block">
+                <i class="fa fa-file-code-o fa-3x"></i>
+                <h4 class="text-uppercase" style="color:#333333;">Front End</h4>
+                <p style="color:#333333;">
+                  Angular5 | JQuery | AJAX | Bootstrap
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+              <div class="block">
+                <i class="fa fa-server fa-3x"></i>
+                <h4 class="text-uppercase" style="color:#333333;">Back End</h4>
+                <p style="color:#333333;">
+                  Node.js | Express.js | Django | Flask | RESTful
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
+            <div class="col-sm-4 col-xs-6">
+              <div class="block">
+                <i class="fa fa-database fa-3x"></i>
+                <h4 class="text-uppercase" style="color:#333333;">Databases</h4>
+                <p style="color:#333333;">
+                  MySQL | MongoDB | MAMP | Mongoose
+                </p>
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-offset-7 col-md-offset-7 col-sm-offset-7">
+            <div class="col-sm-4 col-xs-6">
+              <div class="block">
+                <i class="fa fa-laptop fa-3x"></i>
+                <h4 class="text-uppercase" style="color:#333333;">Software</h4>
+                <p style="color:#333333;">
+                  Git | Atom | Xcode
+                </p>
+              </div>
+            </div>
+            </div>
+
+            <!-- <div class="col-sm-4 col-xs-6">
+              <div class="block">
+                <i class="fa fa-hand-spock-o fa-3x"></i>
+                <h4 class="text-uppercase" style="color:#333333;">Soft Skills</h4>
+                <p style="color:#333333;">
+                  Sketch | Excel | Google Sheets | Balsamiq
+                </p>
+              </div>
+            </div> -->
+          </div>
+        </section>
+      </section>
+      <section class="container" id="hire_me">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h3>Need Any Help?</h3>
+            <h4><i class="fa fa-thumbs-up fa-2x"></i> I am available for freelance hire</h4>
+
+            <nav class="cl-effect-2">
+              <a href="#contact_me"><span data-hover="Hire Me">Hire Me</span></a>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid sdm-bg" id="contact_me">
+        <div class="row">
+          <div class="overlay"></div>
+          <div class="col-sm-12 text-center text-capitalize">
+            <h3>Want to chat?</h3>
+            <h4>just drop a message below and i'll get in touch!</h4>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <section class="col-sm-10 col-sm-offset-1">
+
+            <div class="row text-center">
+              <div class="col-sm-4 col-xs-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
+                <div class="block">
+                  <i class="fa fa-envelope fa-2x"></i>
+                  <h4 class="text-uppercase" style="color:#333333;">Email Me</h4>
+                  <ul class="list-unstyled">
+                    <li>jradtkey@gmail.com</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-4 col-xs-12">
+                <div class="block">
+                  <i class="fa fa-phone fa-2x"></i>
+                  <h4 class="text-uppercase" style="color:#333333;">Call Me</h4>
+                  <ul class="list-unstyled">
+                    <li>(619) 851 - 4238</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- <div class="col-sm-4 col-xs-6">
+                <div class="block">
+                  <i class="fa fa-home fa-2x"></i>
+                  <h4 class="text-uppercase" style="color:#333333;">Office</h4>
+                  <ul class="list-unstyled">
+                    <li>info@mywebsite.com</li>
+                    <li>contact@gmail.com</li>
+                  </ul>
+                </div>
+              </div> -->
+            </div>
+            <form action="" class="row">
+              <div class="col-sm-6 col-xs-12">
+               <div class="form-group">
+                 <label for="your_name">Your Name</label>
+                 <input type="text" class="form-control" id="your_name" placeholder="Enter Name" style="color:#333333;">
+               </div>
+               <div class="form-group">
+                <label for="your_email">Email</label>
+                <input type="email" class="form-control" id="your_email" placeholder="Enter Email" style="color:#333333;">
+              </div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+              <div class="form-group">
+                <label for="your_message">Your Message</label>
+                <textarea class="form-control" rows="5" placeholder="Enter Message" style="color:#333333;"></textarea>
+
+              </div>
+            </div>
+            <div class="col-sm-12 text-center margin-top-55 margin-bottom-55">
+              <button type="submit" class="btn btn-orange">Send Message</button>
+            </div>
+          </form>
+
+          <div class="text-center row">
+            <div class="col-sm-12">
+              <ul class="social-networks spin-icon">
+                <li><a href="https://github.com/jradtkey" class="icon-facebook">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/jaredradtkey/" class="icon-linkedin">LinkedIn</a></li>
+                <li><a href="https://angel.co/jared-radtkey" class="icon-pinterest">Pinterest</a></li>
+              </ul>
+              <p class="text-center margin-top-30">
+               &copy Copyright 2017 <a href="#" style="color:#333333;">Jared Radtkey</a>
+             </p>
+           </div>
+         </div>
+       </section>
+     </div>
+   </section>
+   <!-- Modal -->
+   <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Puppy Connect</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            This marketplace web application allows users to display items for sale on an open thread. Though the wireframe suggested creating a bicycle marketplace, I tailored this web app to fit the needs of puppy owners who need to sell newborn puppies!          </p>
+          <p>
+            This application was built using the MEAN stack. Key functionalities included are:
+          </p>
+          <ul>
+            <li>Registration validation</li>
+            <li>Search</li>
+            <li>Image upload</li>
+            <li>CRUD operations</li>
+          </ul>
+          <a style="color: #5697a4;" href="https://github.com/jradtkey/Recent/tree/master/Desktop/Bootcamp/MEAN/PuppyMarket">See the code here</a>
+          <img src="images/portfolio/puppy.png" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+         <h4 class="modal-title" id="myModalLabel">Web App</h4>
+       </div>
+       <div class="modal-body">
+         <p>
+           This is a onsdnsdoinsdovnsdovin
+         </p>
+         <img src="images/portfolio/port1.jpg" class="img-responsive" alt="">
+       </div>
+     </div>
+   </div>
+ </div>
+  <!-- Modal end -->
+  <script src="js/main.min.js"></script>
+</body>
+</html>
