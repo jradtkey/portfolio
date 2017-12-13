@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="images/profile.jpg"/>
   <title>Jared Radtkey - Software Developer</title>
-  <meta name="description" content="">
-  <meta name="author" content="NAME">
-  <meta name="keywords" content="NAME, Portfolio, Web Developer, Software Developer, Full-Stack, Full-Stack Developer, Software Developer">
+  <meta name="description" content="Jared Radtkey's Portfolio">
+  <meta name="author" content="Jared Radtkey">
+  <meta name="keywords" content="Jared Radtkey, Portfolio, Web Developer, Software Developer, Full-Stack, Full-Stack Developer, Software Developer, Radtkey">
   <link rel="stylesheet" href="css/gradient.min.css" id="css-main">
   <script src="https://use.fontawesome.com/289ab22ae6.js"></script>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -62,7 +62,7 @@
           <div class="col-sm-10 col-sm-offset-1 position-absolute">
             <div class="text-center filter-btns">
               <!-- filter btn -->
-              <h1>Projects</h1>
+              <h1>Portfolio</h1>
               <!-- <ul class="nav nav-pills">
                 <li role="presentation">
                   <a href="javascript:void(0)" id="all" class="btn" data-mixitup-control data-filter="all">All</a>
@@ -85,6 +85,18 @@
             <!-- mixitup container -->
             <div class="row" id="mix-wrapper">
               <div id="effect-5">
+                <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="2">
+                  <figure>
+                    <img src="images/portfolio/rippleWireframe.png" alt="">
+                    <figcaption>
+                      <a href="#" data-toggle="modal" data-target="#myModal2">
+                        <h3>Learning Platform</h3>
+                        <hr>
+                        <p>Concept, Design, Development</p>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
                 <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
                   <figure>
                     <img src="images/portfolio/port1.png" alt="">
@@ -97,31 +109,19 @@
                     </figcaption>
                   </figure>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="2">
-                  <figure>
-                    <img src="images/portfolio/port2.jpg" alt="">
-                    <figcaption>
-                      <a href="#" data-toggle="modal" data-target="#myModal">
-                        <h3>Super Cool Web App</h3>
-                        <hr>
-                        <p>Development, Design</p>
-                      </a>
-                    </figcaption>
-                  </figure>
-                </div>
                 <div class="col-md-4 col-sm-6 col-xs-6 mix-target android" data-order="3">
                   <figure>
-                    <img src="images/portfolio/port1.jpg" alt="">
+                    <img src="images/portfolio/createAbeat.png" alt="">
                     <figcaption>
-                      <a href="#" data-toggle="modal" data-target="#myModal">
-                        <h3>Super Cool Web App</h3>
+                      <a href="#" data-toggle="modal" data-target="#myModal3">
+                        <h3>Random Song Generator</h3>
                         <hr>
-                        <p>Development, Design</p>
+                        <p>HTML, CSS, JavaScript</p>
                       </a>
                     </figcaption>
                   </figure>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-6 mix-target ios" data-order="4">
+                <!-- <div class="col-md-4 col-sm-6 col-xs-6 mix-target ios" data-order="4">
                   <figure target="_blank">
                     <img src="images/portfolio/port4.jpg" alt="">
                     <figcaption>
@@ -157,7 +157,7 @@
                       </a>
                     </figcaption>
                   </figure>
-                </div>
+                </div> -->
               </div>
               <!-- <div class="col-sm-12 text-center">
 
@@ -247,13 +247,13 @@
                 <h3><i class="fa fa-user"></i>About me</h3>
                 <div class="block">
                   <p>
-                      Thank you for visiting my portfolio!
+                      Thank you for visiting my portfolio site!
                   </p>
                   <p>
-                      I am a software developer with years of experience building, managing, and scaling companies. I love working with brilliant teams, and my curiosity and passion for learning keeps me excited about coding everyday. If you have a business idea that you want to discuss, let's chat about it!
+                      I am a software developer with years of experience building, managing, and scaling companies. I love working with brilliant teams, and my curiosity and passion for learning keeps me excited about coding everyday. If you have a business idea that you want to discuss, or a job opportunity that you think I'd be a good fit for, let's chat about it!
                   </p>
                   <p>
-                      When I'm not coding, I'm most likely playing music, surfing, or day dreaming about the next big idea.
+                      When I'm not coding, I'm most likely playing music, surfing, or staying active.
                   </p>
                 </div>
               </div>
@@ -385,7 +385,7 @@
         <div class="row">
           <div class="col-sm-12 text-center">
             <h3>Need Any Help?</h3>
-            <h4><i class="fa fa-thumbs-up fa-2x"></i> I am available for freelance hire</h4>
+            <h4><i class="fa fa-thumbs-up fa-2x"></i> I am looking to join a motivated team!</h4>
 
             <nav class="cl-effect-2">
               <a href="#contact_me"><span data-hover="Hire Me">Hire Me</span></a>
@@ -435,21 +435,21 @@
                 </div>
               </div> -->
             </div>
-            <form action="" class="row">
+            <form action="https://formspree.io/jradtkey@gmail.com" class="row" method="POST">
               <div class="col-sm-6 col-xs-12">
                <div class="form-group">
                  <label for="your_name">Your Name</label>
-                 <input type="text" class="form-control" id="your_name" placeholder="Enter Name" style="color:#333333;">
+                 <input name="name" type="text" class="form-control" id="your_name" placeholder="Enter Name" style="color:#333333;">
                </div>
                <div class="form-group">
                 <label for="your_email">Email</label>
-                <input type="email" class="form-control" id="your_email" placeholder="Enter Email" style="color:#333333;">
+                <input name="email" type="email" class="form-control" id="your_email" placeholder="Enter Email" style="color:#333333;">
               </div>
             </div>
             <div class="col-sm-6 col-xs-12">
               <div class="form-group">
                 <label for="your_message">Your Message</label>
-                <textarea class="form-control" rows="5" placeholder="Enter Message" style="color:#333333;"></textarea>
+                <textarea name="message" class="form-control" rows="5" placeholder="Enter Message" style="color:#333333;"></textarea>
 
               </div>
             </div>
@@ -474,32 +474,62 @@
      </div>
    </section>
    <!-- Modal -->
-   <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Puppy Connect</h4>
-        </div>
-        <div class="modal-body">
-          <p>
-            This marketplace web application allows users to display items for sale on an open thread. Though the wireframe suggested creating a bicycle marketplace, I tailored this web app to fit the needs of puppy owners who need to sell newborn puppies!          </p>
-          <p>
-            This application was built using the MEAN stack. Key functionalities included are:
-          </p>
-          <ul>
-            <li>Registration validation</li>
-            <li>Search</li>
-            <li>Image upload</li>
-            <li>CRUD operations</li>
-          </ul>
-          <a style="color: #5697a4;" href="https://github.com/jradtkey/Recent/tree/master/Desktop/Bootcamp/MEAN/PuppyMarket">See the code here</a>
-          <img src="images/portfolio/puppy.png" class="img-responsive" alt="">
-        </div>
+  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+         <h4 class="modal-title" id="myModalLabel">Web App, Mobile App, Business Concept</h4>
+       </div>
+       <div class="modal-body">
+         <p>
+           I created Ripple Swim Academy because I worked in the aquatics industry for years and realized that most (if not all) swim schools are unable to scale quickly because they depend on expensive, brick-and-mortar facilities. The solution for this is to have a team of mobile instructors go to the clients’ pool.
+         </p>
+         <p>
+           In order to make this happen, Ripple Swim Academy uses web and mobile software to manage clients, while providing built-in incentives designed to keep students on track and engaged.
+         </p>
+         <p>
+           Key Points:
+         </p>
+         <ul>
+           <li>Giphy API</li>
+           <li>Robust Database</li>
+           <li>RESTful API</li>
+           <li>Open cloud platform to incorporate iOS development</li>
+         </ul>
+         <a style="color: #5697a4;" href="https://github.com/jradtkey/learning_dashboard">See the code here</a>
+
+         <img src="images/portfolio/ripple2.png" class="img-responsive" alt="">
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Puppy Connect</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          This marketplace web application allows users to display items for sale on an open thread. Though the wireframe suggested creating a bicycle marketplace, I tailored this web app to fit the needs of puppy owners who need to sell newborn puppies.          </p>
+        <p>
+          This application was built using the MEAN stack. Key functionalities included are:
+        </p>
+        <ul>
+          <li>Registration validation</li>
+          <li>Search</li>
+          <li>Image upload</li>
+          <li>CRUD operations</li>
+        </ul>
+        <a style="color: #5697a4;" href="https://github.com/jradtkey/projects/tree/master/MEAN/PuppyMarket">See the code here</a>
+        <img src="images/portfolio/puppy.png" class="img-responsive" alt="">
       </div>
     </div>
   </div>
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+</div>
+  <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
    <div class="modal-dialog" role="document">
      <div class="modal-content">
        <div class="modal-header">
@@ -508,9 +538,18 @@
        </div>
        <div class="modal-body">
          <p>
-           This is a onsdnsdoinsdovnsdovin
+           I have stored audio tracks within the same key and beats per minute. When the user clicks "Create A Beat", a song is generated.
          </p>
-         <img src="images/portfolio/port1.jpg" class="img-responsive" alt="">
+         <p>
+           This application is coming soon. The next steps in development are:
+         </p>
+         <ul>
+           <li>Increasing the size and quality of the audio tracks</li>
+           <li>Improving design</li>
+           <li>Allow users to save favorite tracks and share them with others</li>
+         </ul>
+        <a style="color: #5697a4;" href="https://github.com/jradtkey/Create_A_Song">See the code here</a>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Comingsoon.png" class="img-responsive" alt="">
        </div>
      </div>
    </div>
